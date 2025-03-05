@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    
+}
+
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #e1eaea; /* Background of the track */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #0097b2; /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+
+  
