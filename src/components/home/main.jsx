@@ -140,7 +140,7 @@ const Main = () => {
                             transition={{ duration: 1, ease: 'easeInOut' }}
                             viewport={{ once: false }}
                         >
-                            <img src={image.code} alt="Code Illustration" className="w-[20%] h-[50%] p-10 md:w-[100%] mx-auto rounded-full" />
+                            <img src={image.code} alt="Code Illustration" className="w-[20%] h-[20%] p-10 md:w-[100%] mx-auto rounded-full" />
                         </motion.div>
                     </div>
 
